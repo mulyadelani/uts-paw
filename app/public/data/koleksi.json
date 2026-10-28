@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "E-Commerce Platform TokoKita",
+    "kategori": "Web",
+    "teknologi": "Laravel, Vue.js, MySQL",
+    "tahun": "2023",
+    "tautan": "https://github.com/example/tokokita-web"
+  },
+  {
+    "id": "2",
+    "judul": "Aplikasi Pelacak Kesehatan HydroTracker",
+    "kategori": "Mobile",
+    "teknologi": "Flutter, Firebase",
+    "tahun": "2024",
+    "tautan": "https://github.com/example/hydrotracker-app"
+  },
+  {
+    "id": "3",
+    "judul": "Prediksi Churn Pelanggan Telekomunikasi",
+    "kategori": "Data",
+    "teknologi": "Python, Pandas, Scikit-Learn",
+    "tahun": "2023",
+    "tautan": "https://github.com/example/telecom-churn-analytics"
+  },
+  {
+    "id": "4",
+    "judul": "Redesain UI/UX Mobile Banking Bankku",
+    "kategori": "Desain",
+    "teknologi": "Figma, Adobe XD",
+    "tahun": "2024",
+    "tautan": "https://figma.com/@example/bankku-redesign"
+  },
+  {
+    "id": "5",
+    "judul": "Portal Berita Utama",
+    "kategori": "Web",
+    "teknologi": "Next.js, Tailwind CSS, PostgreSQL",
+    "tahun": "2022",
+    "tautan": "https://github.com/example/portal-berita"
+  },
+  {
+    "id": "6",
+    "judul": "Aplikasi Kasir UMKM (POS)",
+    "kategori": "Mobile",
+    "teknologi": "React Native, Node.js, MongoDB",
+    "tahun": "2023",
+    "tautan": "https://github.com/example/pos-umkm"
+  },
+  {
+    "id": "7",
+    "judul": "Dashboard Visualisasi Penjualan Ritel",
+    "kategori": "Data",
+    "teknologi": "Tableau, SQL Server",
+    "tahun": "2024",
+    "tautan": "https://public.tableau.com/example/retail-sales"
+  },
+  {
+    "id": "8",
+    "judul": "Design System Aplikasi SaaS HRIS",
+    "kategori": "Desain",
+    "teknologi": "Figma, Storybook",
+    "tahun": "2023",
+    "tautan": "https://figma.com/@example/saas-design-system"
+  },
+  {
+    "id": "9",
+    "judul": "Sistem Informasi Manajemen Sekolah",
+    "kategori": "Web",
+    "teknologi": "CodeIgniter 4, Bootstrap, MariaDB",
+    "tahun": "2022",
+    "tautan": "https://github.com/example/sim-sekolah"
+  },
+  {
+    "id": "10",
+    "judul": "Aplikasi Pemesanan Makanan FastEat",
+    "kategori": "Mobile",
+    "teknologi": "Kotlin, Swift, GraphQL",
+    "tahun": "2024",
+    "tautan": "https://github.com/example/fasteat-mobile"
   }
 ]
