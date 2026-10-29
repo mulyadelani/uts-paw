@@ -1,82 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "E-Commerce Platform TokoKita",
-    "kategori": "Web",
-    "teknologi": "Laravel, Vue.js, MySQL",
-    "tahun": "2023",
-    "tautan": "https://github.com/example/tokokita-web"
+    "judul": "Aplikasi Sistem Manajemen Inventaris Gudang",
+    "kategori": "Aplikasi Web",
+    "teknologi": "Vue.js, Express, PostgreSQL",
+    "tahun": "2024",
+    "tautan": "https://github.com/contoh/gudang-app"
   },
   {
     "id": "2",
-    "judul": "Aplikasi Pelacak Kesehatan HydroTracker",
-    "kategori": "Mobile",
-    "teknologi": "Flutter, Firebase",
+    "judul": "Model Deteksi Penyakit Tanaman Jagung",
+    "kategori": "Kecerdasan Buatan",
+    "teknologi": "PyTorch, OpenCV, FastFastAPI",
     "tahun": "2024",
-    "tautan": "https://github.com/example/hydrotracker-app"
+    "tautan": "https://github.com/contoh/jagung-ai"
   },
   {
     "id": "3",
-    "judul": "Prediksi Churn Pelanggan Telekomunikasi",
-    "kategori": "Data",
-    "teknologi": "Python, Pandas, Scikit-Learn",
-    "tahun": "2023",
-    "tautan": "https://github.com/example/telecom-churn-analytics"
+    "judul": "Pelacak Keuangan Pribadi Berbasis Suara",
+    "kategori": "Aplikasi Mobile",
+    "teknologi": "React Native, SpeechAPI",
+    "tahun": "2025",
+    "tautan": "https://github.com/contoh/voice-money"
   },
   {
     "id": "4",
-    "judul": "Redesain UI/UX Mobile Banking Bankku",
-    "kategori": "Desain",
-    "teknologi": "Figma, Adobe XD",
-    "tahun": "2024",
-    "tautan": "https://figma.com/@example/bankku-redesign"
+    "judul": "Visualisai Spesial Sebaran Fasilitas Kesehatan",
+    "kategori": "Sistem Informasi Geografis",
+    "teknologi": "Mapbox GL, Turf.js",
+    "tahun": "2025",
+    "tautan": "https://figma.com/contoh/peta-faskes"
   },
   {
     "id": "5",
-    "judul": "Portal Berita Utama",
-    "kategori": "Web",
-    "teknologi": "Next.js, Tailwind CSS, PostgreSQL",
-    "tahun": "2022",
-    "tautan": "https://github.com/example/portal-berita"
+    "judul": "Asisten Pengarah Gaya Busana Otomatis",
+    "kategori": "Kecerdasan Buatan",
+    "teknologi": "Python, Gemini API",
+    "tahun": "2025",
+    "tautan": "https://github.com/contoh/fashion-ai"
   },
   {
     "id": "6",
-    "judul": "Aplikasi Kasir UMKM (POS)",
-    "kategori": "Mobile",
-    "teknologi": "React Native, Node.js, MongoDB",
-    "tahun": "2023",
-    "tautan": "https://github.com/example/pos-umkm"
+    "judul": "Flatform Edukasi Pemrogramn Anak Sekolah",
+    "kategori": "Aplikasi Web",
+    "teknologi": "Svelte, Firebase",
+    "tahun": "2024",
+    "tautan": "https://github.com/contoh/koding-anak"
   },
   {
     "id": "7",
-    "judul": "Dashboard Visualisasi Penjualan Ritel",
-    "kategori": "Data",
-    "teknologi": "Tableau, SQL Server",
-    "tahun": "2024",
-    "tautan": "https://public.tableau.com/example/retail-sales"
+    "judul": "Sistem Pengunci Pintu Ruangan NFC",
+    "kategori": "Internet of Things",
+    "teknologi": "ESP8266, PN532, NodeRED",
+    "tahun": "2026",
+    "tautan": "https://public.tableau.com/contoh/nfc-door"
   },
   {
     "id": "8",
-    "judul": "Design System Aplikasi SaaS HRIS",
-    "kategori": "Desain",
-    "teknologi": "Figma, Storybook",
-    "tahun": "2023",
-    "tautan": "https://figma.com/@example/saas-design-system"
+    "judul": "Monitoring Kualitas Udara Ruangan Terbuka",
+    "kategori": "Internet of Things",
+    "teknologi": "Arduino, MQ135, Blynk",
+    "tahun": "2025",
+    "tautan": "https://figma.com/contoh/pantau-udara"
   },
   {
     "id": "9",
-    "judul": "Sistem Informasi Manajemen Sekolah",
-    "kategori": "Web",
-    "teknologi": "CodeIgniter 4, Bootstrap, MariaDB",
-    "tahun": "2022",
-    "tautan": "https://github.com/example/sim-sekolah"
+    "judul": "Pengunggah Berkas Otomatis",
+    "kategori": "Otomasi",
+    "teknologi": "Go, AWS S3 SDK",
+    "tahun": "2026",
+    "tautan": "https://github.com/contoh/cloud-uploader"
   },
   {
     "id": "10",
-    "judul": "Aplikasi Pemesanan Makanan FastEat",
-    "kategori": "Mobile",
-    "teknologi": "Kotlin, Swift, GraphQL",
-    "tahun": "2024",
-    "tautan": "https://github.com/example/fasteat-mobile"
+    "judul": "Simulasi Antrean Rumah Sakit Terintegrasi",
+    "kategori": "Aplikasi Web",
+    "teknologi": "React, Tailwind, Node.js",
+    "tahun": "2026",
+    "tautan": "https://github.com/contoh/antrean-rs"
   }
 ]
