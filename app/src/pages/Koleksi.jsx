@@ -6,7 +6,7 @@ import {useFilterKoleksi} from '../hooks/useFilterKoleksi';
 
 export default function Koleksi() {
   const {koleksi, loading, error} = useKoleksi();
-  const {kataKunci, setKataKunci, kategoriTerpilih, setKategoriTerpilih, daftarKategori, koleksiTersaring} = useFiterKoleksi(koleksi)
+  const {cariJudul, setcariJudul, filterKategori, setfilterKategori, daftarKategori, koleksiTersaring} = useFiterKoleksi(koleksi)
   if (loading) return <Layout><p>loading...</p></Layout>;
   if (error) return <Layout><p>error: {error}</p></Layout>;
 
@@ -14,10 +14,10 @@ export default function Koleksi() {
     <Layout>
       <h2>Daftar Portofolio Proyek </h2>
       <FilterBar
-        kataKunci={kataKunci}
-        onUbahKataKunci={setKataKunci}
-        kategoriTerpilih={kategoriTerpilih}
-        obUbahKategori={setKategoriTerpilih}
+        cariJudul={cariJudul}
+        onUbahcariJudul={setcariJudul}
+        filterKategori={filterKategori}
+        obUbahKategori={setfilterKategori}
         daftarKategori={daftarKategori}
       />
       <div className="grid-list">

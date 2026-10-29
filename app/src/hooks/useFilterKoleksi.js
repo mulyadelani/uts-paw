@@ -1,8 +1,8 @@
 import {useState, useMemo} from 'react';
 
 export function useFilterKoleksi(koleksi = []) {
-  const [kataKunci, setKataKunci] = useState('');
-    const [kategoriTerpilih, setKategoriTerpilih] = useState('Semua');
+  const [cariJudul, setcariJudul] = useState('');
+    const [filterKategori, setfilterKategori] = useState('Semua');
     const daftarKategori = useMemo(() => {
       const unik = new Set(koleksi.map((item) => item.kategori).filter(Boolean));
     return ['Semua', ...Array.from(unik)];
@@ -10,12 +10,12 @@ export function useFilterKoleksi(koleksi = []) {
 
   const koleksiTersaring = useMemo(() => {
     return koleksi.filter((item) => {
-      const cocokJudul = item.judul.toLowerCase().includes(kataKunci.trim().toLowerCase());
-      const cocokKategori = kategoriTerpilih === 'Semua' || item.kategori === kategoriTerpilih;
+      const cocokJudul = item.judul.toLowerCase().includes(cariJudul.trim().toLowerCase());
+      const cocokKategori = filterKategori === 'Semua' || item.kategori === filterKategori;
       return cocokJudul && cocokKategori;
     });
-  }, [koleksi, kataKunci, kategoriTerpilih]);
+  }, [koleksi, cariJudul, filterKategori]);
   
-  return {kataKunci, setKataKunci, kategoriTerpilih, setKategoriTerpilih, daftarKategori, koleksiTersaring};
+  return {cariJudul, setcariJudul, filterKategori, setfilterKategori, daftarKategori, koleksiTersaring};
 }
 export default useFilterKoleksi;

@@ -1,16 +1,22 @@
-:root {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.5;
-  color: #1f2328;
-  background: #f6f7f9;
-}
+/* 3 Selektor ID */
+#app-wrapper { max-width: 1200px; margin: 0 auto; padding: 20px; }
+#header-utama { border-bottom: 2px solid #ddd; margin-bottom: 20px; }
+#konten-utama { min-height: 80vh; }
 
-body {
-  margin: 0;
-}
+/* 5 Selektor Class */
+.site-header { display: flex; justify-content: space-between; align-items: center; }
+.site-nav a { margin-right: 15px; text-decoration: none; color: #333; }
+.card-item { border: 1px solid #ccc; padding: 15px; border-radius: 8px; }
+.grid-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; }
+.btn-submit { background-color: #007bff; color: white; border: none; padding: 10px 15px; }
 
-main {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
+/* 3 Pseudo-class & Pseudo-element */
+.site-nav a:hover { color: #007bff; font-weight: bold; }
+.btn-submit:focus { outline: 2px solid #0056b3; }
+.card-item::before { content: "• "; color: #007bff; }
+
+/* Media Query Responsif */
+@media (max-width: 768px) {
+  .grid-list { grid-template-columns: 1fr; }
+  .site-header { flex-direction: column; }
 }

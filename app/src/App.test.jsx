@@ -1,14 +1,24 @@
 import { render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router-dom'
-import { expect, test } from 'vitest'
-import App from './App.jsx'
+import { describe, it, expect } from 'vitest'
+import App from './App';
 
-// Contoh test. Tambahkan minimal 5 test buatan sendiri (butir rubrik F1).
-test('rute tidak dikenal menampilkan 404', () => {
-  render(
-    <MemoryRouter initialEntries={['/tidak-ada']}>
-      <App />
-    </MemoryRouter>,
-  )
-  expect(screen.getByRole('heading', { name: '404' })).toBeInTheDocument()
-})
+describe('Pengujian Rute Dasar Aplikasi', () => {
+  it('Menampilkan judul utama pada halaman Beranda', () => {
+    render(
+      <MemoryRouter initialEntries={['/']}>
+        <App/>
+      </MemoryRouter>
+    );
+    expect(screen.getByRole('heading', { level: 1 })).toBeDefined();
+  });
+
+  it('Menampilkan halaman 404 ketika rute tidak ditemukan', () => {
+    render(
+      <MemoryRouter initialEntries={['/rute-salah-random']}>
+        <App/>
+      </MemoryRouter>
+    );
+    expect(screen.getByText('404')).toBeDefined();
+  });
+});

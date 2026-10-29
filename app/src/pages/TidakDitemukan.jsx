@@ -1,4 +1,4 @@
-import {Link} from 'reactt-router-dom';
+import {Link} from 'react-router-dom';
 import Layout from '../components/Layout';
 
 export default function TidakDitemukan() {
