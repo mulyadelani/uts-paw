@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           <NavLink to="/tentang">Tentang</NavLink>
         </nav>
       </header>
-      <main className="main-content">{childrenn}</main>
+      <main className="main-content">{children}</main>
       <footer className="site-footer">
         <p>&copy; 2026 - Portofolio Proyek NIM 123140019</p>
       </footer>
