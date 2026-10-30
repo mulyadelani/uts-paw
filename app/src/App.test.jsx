@@ -6,19 +6,19 @@ import App from './App';
 const dataMockProyek = [
   {
     id: '1',
-    judul: 'Aplikasi Inventaris Gudang',
+    judul: 'Aplikasi Tugas PAW',
     kategori: 'Aplikasi Web',
-    teknologi: 'Vue.js, Express',
-    tahun: 2024,
-    tautan: 'https://github.com/contoh/gudang-app',
+    teknologi: 'JavaScript',
+    tahun: 2026,
+    tautan: 'https://github.com/mulyadelani/pemrograman_web_itera_123140019.git',
   },
   {
     id: '2',
-    judul: 'Sistem Deteksi Hama Tanaman',
-    kategori: 'Kecerdasan Buatan',
-    teknologi: 'PyTorch, FastAPI',
-    tahun: 2025,
-    tautan: 'https://github.com/contoh/jagung-ai',
+    judul: 'replikasi parsial dari jurnal ilmiah',
+    kategori: 'Apache Spark',
+    teknologi: 'Python',
+    tahun: 2026,
+    tautan: 'https://github.com/mulyadelani/mahadata-spark-supplychain.git',
   },
 ];
 

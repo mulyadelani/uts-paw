@@ -1,82 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Aplikasi Sistem Manajemen Inventaris Gudang",
+    "judul": "Aplikasi Tugas PAW",
     "kategori": "Aplikasi Web",
-    "teknologi": "Vue.js, Express, PostgreSQL",
-    "tahun": "2024",
-    "tautan": "https://github.com/contoh/gudang-app"
+    "teknologi": "JavaScript",
+    "tahun": "2026",
+    "tautan": "https://github.com/mulyadelani/pemrograman_web_itera_123140019.git"
   },
   {
     "id": "2",
-    "judul": "Model Deteksi Penyakit Tanaman Jagung",
-    "kategori": "Kecerdasan Buatan",
-    "teknologi": "PyTorch, OpenCV, FastFastAPI",
-    "tahun": "2024",
-    "tautan": "https://github.com/contoh/jagung-ai"
+    "judul": "replikasi parsial dari jurnal ilmiah",
+    "kategori": "Apache Spark",
+    "teknologi": "Python",
+    "tahun": "2026",
+    "tautan": "https://github.com/mulyadelani/mahadata-spark-supplychain.git"
   },
   {
     "id": "3",
-    "judul": "Pelacak Keuangan Pribadi Berbasis Suara",
+    "judul": "Aplikasi platform manajemen fasilitas",
     "kategori": "Aplikasi Mobile",
-    "teknologi": "React Native, SpeechAPI",
+    "teknologi": "Kotlin",
     "tahun": "2025",
-    "tautan": "https://github.com/contoh/voice-money"
+    "tautan": "https://github.com/nahli123140049/Roomie.git"
   },
   {
     "id": "4",
-    "judul": "Visualisai Spesial Sebaran Fasilitas Kesehatan",
-    "kategori": "Sistem Informasi Geografis",
-    "teknologi": "Mapbox GL, Turf.js",
-    "tahun": "2025",
-    "tautan": "https://figma.com/contoh/peta-faskes"
+    "judul": "redesain Website Presensi Digital",
+    "kategori": "Aplikasi Web",
+    "teknologi": "PHP",
+    "tahun": "2026",
+    "tautan": "https://github.com/mulyadelani/KP-BPSDMJABAR2.git"
   },
   {
     "id": "5",
-    "judul": "Asisten Pengarah Gaya Busana Otomatis",
-    "kategori": "Kecerdasan Buatan",
-    "teknologi": "Python, Gemini API",
+    "judul": "Jabar Corpu Talent",
+    "kategori": "Desain",
+    "teknologi": "Figma",
     "tahun": "2025",
-    "tautan": "https://github.com/contoh/fashion-ai"
+    "tautan": "https://s.itera.id/fhzclL"
   },
   {
     "id": "6",
-    "judul": "Flatform Edukasi Pemrogramn Anak Sekolah",
-    "kategori": "Aplikasi Web",
-    "teknologi": "Svelte, Firebase",
-    "tahun": "2024",
-    "tautan": "https://github.com/contoh/koding-anak"
+    "judul": "Prototype Aplikasi Presensi",
+    "kategori": "Desain",
+    "teknologi": "Figma",
+    "tahun": "2026",
+    "tautan": "https://s.itera.id/EzcuHR"
   },
   {
     "id": "7",
-    "judul": "Sistem Pengunci Pintu Ruangan NFC",
-    "kategori": "Internet of Things",
-    "teknologi": "ESP8266, PN532, NodeRED",
+    "judul": "Prototype Aplikasi Peminjaman Ruangan",
+    "kategori": "Desain",
+    "teknologi": "Figma",
     "tahun": "2026",
-    "tautan": "https://public.tableau.com/contoh/nfc-door"
+    "tautan": "https://s.itera.id/mX1lhE"
   },
   {
     "id": "8",
-    "judul": "Monitoring Kualitas Udara Ruangan Terbuka",
-    "kategori": "Internet of Things",
-    "teknologi": "Arduino, MQ135, Blynk",
+    "judul": "Prototype Aplikasi Schedule",
+    "kategori": "Desain",
+    "teknologi": "Figma",
     "tahun": "2025",
-    "tautan": "https://figma.com/contoh/pantau-udara"
+    "tautan": "https://s.itera.id/9z3x6B"
   },
   {
     "id": "9",
-    "judul": "Pengunggah Berkas Otomatis",
-    "kategori": "Otomasi",
-    "teknologi": "Go, AWS S3 SDK",
+    "judul": "Aplikasi Tugas PAM",
+    "kategori": "Aplikasi Mobile",
+    "teknologi": "Kotlin",
     "tahun": "2026",
-    "tautan": "https://github.com/contoh/cloud-uploader"
+    "tautan": "https://github.com/mulyadelani/2_123140019.git"
   },
   {
     "id": "10",
-    "judul": "Simulasi Antrean Rumah Sakit Terintegrasi",
-    "kategori": "Aplikasi Web",
-    "teknologi": "React, Tailwind, Node.js",
-    "tahun": "2026",
-    "tautan": "https://github.com/contoh/antrean-rs"
+    "judul": "Prototype Aplikasi Rekomendasi Pakaian",
+    "kategori": "Desain",
+    "teknologi": "Figma",
+    "tahun": "2025",
+    "tautan": "https://s.itera.id/4wVOlP"
   }
 ]
