@@ -17,7 +17,7 @@ const tema = {
     colorTextSecondary: '#5C564A',
     colorBorder: '#D9D1BB',
     colorBorderSecondary: '#E8E1CD',
-    colorBgLayout: '#FAF7F0',
+    colorBgTataLetak: '#FAF7F0',
     colorSuccess: '#2F6B1C',
     colorError: '#B42318',
     borderRadius: 8,
@@ -25,7 +25,7 @@ const tema = {
     fontSize: 15,
   },
   components: {
-    Layout: { headerBg: '#14120D', footerBg: '#14120D', headerPadding: '0 24px', headerHeight: 64 },
+    TataLetak: { headerBg: '#14120D', footerBg: '#14120D', headerPadding: '0 24px', headerHeight: 64 },
     Menu: { darkItemBg: '#14120D', darkItemSelectedBg: 'transparent', darkItemSelectedColor: '#E6CF85', darkItemColor: '#CFC8B6', darkItemHoverColor: '#FFFFFF' },
     Table: { headerBg: '#F1EDE1' },
   },

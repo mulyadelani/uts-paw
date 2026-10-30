@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
-import { Button, Drawer, Grid, Layout, Menu, Result } from 'antd'
+import { Button, Drawer, Grid, TataLetak, Menu, Result } from 'antd'
 import { MenuOutlined } from '@ant-design/icons'
 import UTS from './uts.js'
 import Beranda from './pages/Beranda.jsx'
@@ -57,8 +57,8 @@ export default function App() {
   }
 
   return (
-    <Layout className="kerangka">
-      <Layout.Header className="kepala">
+    <TataLetak className="kerangka">
+      <TataLetak.Header className="kepala">
         <Link to="/" className="merek">
           <img src={`${import.meta.env.BASE_URL}itera-logo.png`} alt="ITERA" width="28" height="34" />
           <span>
@@ -76,8 +76,8 @@ export default function App() {
             </Drawer>
           </>
         )}
-      </Layout.Header>
-      <Layout.Content className="isi">
+      </TataLetak.Header>
+      <TataLetak.Content className="isi">
         <Routes>
           <Route path="/" element={<Beranda />} />
           <Route path="/soal" element={<Soal />} />
@@ -89,12 +89,12 @@ export default function App() {
           <Route path="/pengumpulan" element={<Pengumpulan />} />
           <Route path="*" element={<TidakDitemukan />} />
         </Routes>
-      </Layout.Content>
-      <Layout.Footer className="kaki">
+      </TataLetak.Content>
+      <TataLetak.Footer className="kaki">
         <span>{UTS.mataKuliah}</span>
         <span>Informatika, Institut Teknologi Sumatera</span>
         <span>Dosen: {UTS.dosen}</span>
-      </Layout.Footer>
-    </Layout>
+      </TataLetak.Footer>
+    </TataLetak>
   )
 }

@@ -13,10 +13,10 @@ export const HALAMAN = [
   {
     key: 'fondasi',
     menu: 'Fondasi (kerjakan dulu)',
-    judul: 'Fondasi: data, Context, Layout, dan rute',
+    judul: 'Fondasi: data, Context, TataLetak, dan rute',
     alamat: '-',
-    berkas: ['mahasiswa.json', 'public/data/koleksi.json', 'src/hooks/useLocalStorage.js', 'src/context/koleksiContext.js', 'src/context/KoleksiProvider.jsx', 'src/hooks/useKoleksi.js', 'src/components/Layout.jsx', 'src/App.jsx'],
-    isi: ['Identitas dan data awal sesuai tema NIM', 'Provider yang mengambil data dengan fetch dan menyimpannya ke localStorage', 'Layout dengan header, nav, main, footer', 'Ketujuh rute di App.jsx'],
+    berkas: ['mahasiswa.json', 'public/data/koleksi.json', 'src/hooks/useLocalStorage.js', 'src/context/koleksiContext.js', 'src/context/KoleksiProvider.jsx', 'src/hooks/useKoleksi.js', 'src/components/TataLetak.jsx', 'src/App.jsx'],
+    isi: ['Identitas dan data awal sesuai tema NIM', 'Provider yang mengambil data dengan fetch dan menyimpannya ke localStorage', 'TataLetak dengan header, nav, main, footer', 'Ketujuh rute di App.jsx'],
     butir: ['A1', 'C1', 'D1', 'D2', 'D3', 'D4', 'D5', 'E1', 'E2'],
     langkah: LANGKAH_FONDASI,
   },

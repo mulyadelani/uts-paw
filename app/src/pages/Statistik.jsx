@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import TataLetak from '../components/TataLetak';
 import {useKoleksi} from '../context/KoleksiContext';
 
 export default function Statistik() {
@@ -9,7 +9,7 @@ export default function Statistik() {
     }, {});
 
     return (
-      <Layout>
+      <TataLetak>
         <h2>Statistik Kategori</h2>
         <table>
           <thead>
@@ -31,7 +31,7 @@ export default function Statistik() {
               </tr>
             </tbody>
           </table>
-        </Layout>
+        </TataLetak>
     );
 }
     

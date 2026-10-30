@@ -1,6 +1,6 @@
 import {useNavigate} from 'react-router-dom';
-import Layout from '../components/Layout';
-import FormItem from '../components/FormItem';
+import TataLetak from '../components/TataLetak';
+import FormTambahProyek from '../components/FormTambahProyek';
 import {useKoleksi} from '../context/KoleksiContext';
 
 export default function Tambah() {
@@ -12,9 +12,9 @@ export default function Tambah() {
   };
 
   return (
-    <Layout>
+    <TataLetak>
       <h2>Tambah Proyek Baru</h2>
-      <FormItem onSimpan={handleSimpan} />
-    </Layout>
+      <FormTambahProyek onSubmitProyek={handleSimpan} />
+    </TataLetak>
   );
 }

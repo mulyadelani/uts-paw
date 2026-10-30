@@ -76,11 +76,11 @@ export const LANGKAH_FONDASI = [
     cek: ['Belum terlihat di layar.'],
   },
   {
-    judul: 'Buat Layout: header, nav, main, footer',
+    judul: 'Buat TataLetak: header, nav, main, footer',
     tujuan: 'Kerangka yang tampil di semua halaman, dengan menu navigasi.',
     kode: [
-      { label: 'src/components/Layout.jsx', isi: isi('src/components/Layout.jsx') },
-      { label: 'src/components/Layout.css', isi: isi('src/components/Layout.css') },
+      { label: 'src/components/TataLetak.jsx', isi: isi('src/components/TataLetak.jsx') },
+      { label: 'src/components/TataLetak.css', isi: isi('src/components/TataLetak.css') },
     ],
     penjelasan: [
       <>
@@ -101,7 +101,7 @@ export const LANGKAH_FONDASI = [
   },
   {
     judul: 'Pasang Provider dan semua rute di App.jsx',
-    tujuan: 'Menghubungkan semuanya: Provider membungkus rute, Layout membungkus halaman, dan tujuh alamat terdaftar.',
+    tujuan: 'Menghubungkan semuanya: Provider membungkus rute, TataLetak membungkus halaman, dan tujuh alamat terdaftar.',
     kode: [
       { label: 'src/pages/Beranda.jsx (kerangka sementara untuk ketujuh halaman)', isi: KERANGKA },
       { label: 'src/App.jsx', isi: isi('src/App.jsx') },
@@ -300,7 +300,7 @@ export const LANGKAH_404 = [
       <>
         Halaman ini wajib memuat teks <strong>404</strong> (butir C12) dan tautan kembali ke Beranda.
       </>,
-      'Halaman ini tetap memakai Layout, jadi menu navigasi tetap tampil.',
+      'Halaman ini tetap memakai TataLetak, jadi menu navigasi tetap tampil.',
     ],
     cek: ['Buka /abc: tampil 404 beserta menu navigasi.', 'Klik "Kembali ke beranda": pindah ke /.'],
   },

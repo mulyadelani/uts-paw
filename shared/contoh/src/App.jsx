@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import { KoleksiProvider } from './context/KoleksiProvider.jsx'
-import Layout from './components/Layout.jsx'
+import TataLetak from './components/TataLetak.jsx'
 import Beranda from './pages/Beranda.jsx'
 import Koleksi from './pages/Koleksi.jsx'
 import Detail from './pages/Detail.jsx'
@@ -13,7 +13,7 @@ export default function App() {
   return (
     <KoleksiProvider>
       <Routes>
-        <Route element={<Layout />}>
+        <Route element={<TataLetak />}>
           <Route path="/" element={<Beranda />} />
           <Route path="/koleksi" element={<Koleksi />} />
           <Route path="/koleksi/:id" element={<Detail />} />

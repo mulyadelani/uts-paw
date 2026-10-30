@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom'
-import './Layout.css'
+import './TataLetak.css'
 
 const MENU = [
   { ke: '/', label: 'Beranda' },
@@ -9,7 +9,7 @@ const MENU = [
   { ke: '/tentang', label: 'Tentang' },
 ]
 
-export default function Layout() {
+export default function TataLetak() {
   return (
     <div className="kerangka">
       <header className="kepala">

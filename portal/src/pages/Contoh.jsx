@@ -24,7 +24,7 @@ const BAGIAN = [
     butir: ['D4', 'C12'],
     teks: (
       <>
-        App membungkus semua rute dengan Provider Context. Rute induk tanpa <code>path</code> memakai komponen Layout, sehingga header,
+        App membungkus semua rute dengan Provider Context. Rute induk tanpa <code>path</code> memakai komponen TataLetak, sehingga header,
         nav, dan footer tampil di setiap halaman lewat <code>&lt;Outlet /&gt;</code>. Rute <code>*</code> menangkap alamat yang tidak dikenal.
       </>
     ),
@@ -56,8 +56,8 @@ const BAGIAN = [
     berkas: ['src/hooks/useLocalStorage.js', 'src/hooks/useKoleksi.js'],
   },
   {
-    key: 'layout',
-    judul: 'Layout semantik dan CSS responsif',
+    key: 'TataLetak',
+    judul: 'TataLetak semantik dan CSS responsif',
     butir: ['E1', 'E2'],
     teks: (
       <>
@@ -65,7 +65,7 @@ const BAGIAN = [
         flex dan grid, serta <code>@media</code> yang menyusun ulang kartu menjadi satu kolom di layar kecil.
       </>
     ),
-    berkas: ['src/components/Layout.jsx', 'src/components/Layout.css'],
+    berkas: ['src/components/TataLetak.jsx', 'src/components/TataLetak.css'],
   },
   {
     key: 'komponen',
@@ -74,7 +74,7 @@ const BAGIAN = [
     teks: (
       <>
         Komponen kecil yang menerima data lewat props. Kolom pencarian memakai <code>type="search"</code> dan dikendalikan oleh state
-        induknya. Kamu perlu minimal lima komponen; contoh ini baru tiga bersama Layout.
+        induknya. Kamu perlu minimal lima komponen; contoh ini baru tiga bersama TataLetak.
       </>
     ),
     berkas: ['src/components/KotakPencarian.jsx', 'src/components/KartuItem.jsx'],

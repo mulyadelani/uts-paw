@@ -1,5 +1,5 @@
 import {useParams, useNavigate, Link} from 'react-router-dom';
-import Layout from '../components/Layout';
+import TataLetak from '../components/TataLetak';
 import {useKoleksi} from '../context/KoleksiContext';
 
 export default function Detail() {
@@ -11,10 +11,10 @@ export default function Detail() {
 
   if (!item) {
     return (
-      <Layout>
+      <TataLetak>
         <h2>Data tidak ditemukan</h2>
         <Link to="/koleksi">Kembali ke koleksi</Link>
-      </Layout>
+      </TataLetak>
     );
   }
 
@@ -26,7 +26,7 @@ export default function Detail() {
   };
 
   return (
-    <Layout>
+    <TataLetak>
       <h2>{item.judul}</h2>
       <div className="detail-box">
         <p><strong>Kategori:</strong> {item.kategori}</p>
@@ -38,7 +38,7 @@ export default function Detail() {
         <br/>
         <Link to="/koleksi">Kembali</Link>
       </div>
-    </Layout>
+    </TataLetak>
   );
 }
 

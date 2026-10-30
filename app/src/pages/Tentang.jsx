@@ -1,8 +1,8 @@
-import Layout from '../components/Layout';
+import TataLetak from '../components/TataLetak';
 
 export default function Tentang() {
   return (
-    <Layout>
+    <TataLetak>
       <h2>Tentang Pengembang</h2>
       <div className="about-card">
         <p><strong>Nama:</strong> Mulya Delani </p>
@@ -16,6 +16,6 @@ export default function Tentang() {
           </a>
         </p>
       </div>
-    </Layout>
+    </TataLetak>
   );
 }
