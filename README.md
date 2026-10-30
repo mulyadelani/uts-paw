@@ -65,17 +65,37 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: Mulya Delani
+NIM: 123140019
+Kelas: RA
+Tema: Portofolio Proyek
+Deployment: https://mulyadelani.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
 
-- ...
+1. **Dashboard Beranda Interaktif**:
+   - Menampilkan *Hero Section* informatif dengan tombol navigasi cepat.
+   - Menghitung dan menyajikan ringkasan total proyek serta ragam kategori secara dinamis menggunakan komponen `StatCard`.
+2. **Eksplorasi & Pencarian Koleksi Proyek**:
+   - Menampilkan daftar karya proyek dalam tata letak kartu yang responsif (`KartuProyek`).
+   - Pencarian instan berdasarkan judul proyek melalui `KotakPencarian`.
+   - Filter dropdown dinamis untuk memfilter proyek berdasarkan kategori yang tersedia.
+3. **Detail Spesifikasi Proyek**:
+   - Menampilkan informasi terperinci setiap proyek (Kategori, Teknologi yang digunakan, Tahun rilis, serta Tautan eksternal).
+   - Penanganan khusus untuk ID proyek yang tidak terdaftar di sistem.
+   - Fitur hapus proyek dengan konfirmasi interaktif peramban.
+4. **Formulir Tambah Proyek**:
+   - Form input berlabel lengkap (`FormTambahProyek`) untuk menambahkan karya baru ke dalam daftar.
+   - Validasi data judul dengan pemberitahuan kesalahan (`role="alert"`).
+   - Terintegrasi langsung dengan `localStorage` browser sehingga data tetap tersimpan saat halaman dimuat ulang.
+5. **Rekapitulasi Statistik**:
+   - Menampilkan tabel distribusi jumlah proyek per kategori secara otomatis.
+6. **Informasi Pengembang**:
+   - Halaman profil mahasiswa pengembang lengkap dengan tautan repositori proyek.
+7. **Halaman Penanganan Rute (404 Not Found)**:
+   - Tampilan khusus ketika pengguna mengakses alamat URL yang tidak terdaftar.
 
 ## Menjalankan secara lokal
 
@@ -85,5 +105,16 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+1. State Management & Hooks: 
+   - Memanfaatkan useState, useEffect, useMemo, dan useContext.
+2. Custom Hooks:
+   - useLocalStorage: Sinkronisasi otomatis data aplikasi ke penyimpanan lokal browser.
+ - useFilterKoleksi: Logika penyaringan kata kunci judul dan kategori proyek secara terpisah dan efisien.
+3. Context API: 
+   - KoleksiContext untuk mendistribusikan data proyek dan fungsi mutasi ke seluruh halaman tanpa prop drilling.
+3. Routing: 
+   - react-router-dom dengan navigasi rute halaman, rute dinamis berparameter (useParams), dan fallback 404.
+4. Komponen Fungsional Terstruktur: 
+   - Memisahkan antarmuka menjadi komponen modular (TataLetak, StatCard, KotakPencarian, KartuProyek, FormTambahProyek).
+5. CSS Responsif Modern: 
+   - Penataan fleksibel (Flexbox & CSS Grid), selektor semantik HTML5, serta kustomisasi tema warna pink yang responsif terhadap perangkat bergerak.
